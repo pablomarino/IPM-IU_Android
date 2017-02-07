@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/layout"
+    tools:context="es.udc.ipm.ipm_p2.MainActivity"
+    android:tag="landscape"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <FrameLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="@dimen/footer_height" />
+        <TextView
+            android:id="@+id/tv_footer_0"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_height="@dimen/footer_height"
+            android:typeface="normal"
+            android:textAppearance="@style/Text.Breadcrumb.Toolbar"
+            android:textAlignment="textStart"
+            android:paddingLeft="20dp"
+            android:text="@string/label_sin_seleccion"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp"  />
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@mipmap/plus"
+            android:id="@+id/land_float_add"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_alignEnd="@+id/parent"
+            android:layout_alignBottom="@+id/tv_footer_0"
+            android:clickable="true"
+            android:layout_margin="20dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <FrameLayout
+                android:id="@+id/children"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@color/gris_claro"
+                android:layout_marginBottom="@dimen/footer_height">
+            </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_footer_1"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_height="@dimen/footer_height"
+            android:typeface="normal"
+            android:textAppearance="@style/Text.Breadcrumb.Toolbar"
+            android:textAlignment="textStart"
+            android:paddingLeft="20dp"
+            android:text="@string/label_sin_seleccion"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@mipmap/plus"
+            android:id="@+id/land_float_add_child"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_alignEnd="@+id/children"
+            android:layout_alignBottom="@+id/tv_footer_1"
+            android:clickable="true"
+            android:layout_margin="20dp"/>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <FrameLayout
+                android:id="@+id/landing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="@dimen/footer_height">
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_footer_2"
+                android:layout_width="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_height="@dimen/footer_height"
+                android:typeface="normal"
+                android:textAppearance="@style/Text.Breadcrumb.Toolbar"
+                android:textAlignment="textStart"
+                android:paddingLeft="20dp"
+                android:text="@string/label_sin_seleccion"
+                android:textColor="@color/colorBlue"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+</LinearLayout>
+

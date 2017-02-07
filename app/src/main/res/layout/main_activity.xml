@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context="es.udc.ipm.ipm_p2.MainActivity"
+    android:tag="portrait"
+    >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginBottom="@dimen/footer_height">
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:typeface="normal"
+        android:textAppearance="@style/Text.Breadcrumb.Toolbar"
+        android:textAlignment="textStart"
+        android:paddingLeft="20dp"
+        android:text="@string/label_sin_seleccion"
+        android:textColor="@color/colorBlue"
+        android:textSize="14sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignEnd="@+id/tv_footer"
+        android:layout_alignBottom="@+id/tv_footer"
+        android:clickable="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:id="@+id/add"
+        app:srcCompat="@mipmap/plus"
+        android:layout_alignEnd="@+id/tv_footer"
+        android:layout_alignBottom="@+id/tv_footer"
+        android:clickable="true"
+        android:layout_margin="20dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:id="@+id/add_child"
+        app:srcCompat="@mipmap/plus"
+        android:layout_alignEnd="@+id/back"
+        android:layout_alignBottom="@+id/tv_footer"
+        android:clickable="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="20dp"
+        />
+</RelativeLayout>
+

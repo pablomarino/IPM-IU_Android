@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">IPM_P2</string>
+    <string name="bt_aceptar">Aceptar</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="bt_volver">Volver</string>
+    <string name="label_anadir">Añadir una nueva categoria</string>
+    <string name="label_anadir_el">Añadir un nuevo elemento</string>
+    <string name="label_azar">Categoria al azar</string>
+    <string name="label_confirmar">¿Confirma la acción seleccionada?</string>
+    <string name="label_editar">Editar</string>
+    <string name="title_seleccion">Tu selección es</string>
+    <string name="title_anadir">Añadir</string>
+    <string name="title_eliminar">Eliminar</string>
+    <string name="label_seleccion">Tu selección es</string>
+    <string name="label_vacio">No hay elementos en la lista</string>
+    <string name="label_sin_seleccion">Haz tu eleccion ...</string>
+    <string name="label_separador"> / </string>
+    <string name="lista_vacia">Error : imposible hacer la seleccion, lista vacia</string>
+    <string name="rand_selecion">"Elegida aleatoriamente categoria "</string>
+    <string name="start_tip">para opciones adicionales arrastra los elementos hacia la izquierda</string>
+</resources>

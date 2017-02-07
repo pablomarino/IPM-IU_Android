@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ListView
+    android:id="@id/android:list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true">
+</ListView>
+
+</LinearLayout>
+
+
+    <!--
+    <com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp">
+            <ImageButton
+                android:layout_width="48dp"
+                android:id="@+id/ListItemButtonAdd"
+                android:src="@android:drawable/ic_menu_add"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_height="96dp" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:id="@+id/ListItemButtonEdit"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_height="96dp" />
+
+            <ImageButton
+                android:src="@android:drawable/ic_menu_delete"
+                android:id="@+id/ListItemButtonRemove"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="48dp"
+                android:layout_height="96dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:id="@+id/ListItemThumbnail"
+                android:layout_height="96dp"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:gravity="center_vertical|left"
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:id="@+id/ListItemTextView"
+                android:height="96dp"
+                android:textSize="24sp"
+                android:layout_weight="0.30"
+                android:paddingLeft="10dp"
+                android:layout_height="96dp"
+                />
+            <TextView
+
+                android:text="0"
+                android:id="@+id/ListItemChildCount"
+
+                android:layout_width="wrap_content"
+                android:background="@drawable/count_badge"
+                android:gravity="center_vertical|center_horizontal"
+                android:isScrollContainer="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </com.daimajia.swipe.SwipeLayout>
+
+            -->

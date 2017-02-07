@@ -1,0 +1,52 @@
+{
+  "data": [
+    {"name": "Cat. 0", "children": [
+      {"name": "Subcat. a"}
+    ]},
+    {"name": "Cat. 1", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"}
+    ]},
+    {"name": "Cat. 2", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"}
+    ]},
+    {"name": "Cat. 3", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"},
+      {"name": "Subcat. c"},
+      {"name": "Subcat. d"}
+    ]},
+    {"name": "Cat. 4", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"},
+      {"name": "Subcat. c"}
+    ]},
+    {"name": "Cat. 5", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"}
+    ]},
+    {"name": "Cat. 6", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"}
+    ]},
+    {"name": "Cat. 7", "children": [
+      {"name": "Subcat. a"},
+      {"name": "Subcat. b"},
+      {"name": "Subcat. c"},
+      {"name": "Subcat. d"}
+    ]}
+  ],
+  "colorschemes":[
+    {"scheme":["#ADF7D1","#95E8D7","#7DACE4","#8971D0"]},
+    {"scheme":["#2A3356","#F35B25","#FDFCFC","#E8E2E2"]},
+    {"scheme":["#222831","#393E46","#00ADB5","#EEEEEE"]},
+    {"scheme":["#F33535","#D8E9F0","#33425B","#29252C"]},
+    {"scheme":["#7A08FA","#A82FFC","#C264FE","#F8ECFD"]},
+    {"scheme":["#FFC8C8","#FF9999","#444F5A","#3E4149"]},
+    {"scheme":["#F06868","#FAB57A","#EDF798","#80D6FF"]},
+    {"scheme":["#36D1C4","#A0EECC","#FFF2BE","#F6318C"]},
+    {"scheme":["#F85F73","#FBE8D3","#928A97","#283C63"]},
+    {"scheme":["#384259","#F73859","#7AC7C4","#C4EDDE"]}
+  ]
+}

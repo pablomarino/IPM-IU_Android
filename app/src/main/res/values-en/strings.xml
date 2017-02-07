@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">IPM_P2</string>
+    <string name="bt_aceptar">Accept</string>
+    <string name="bt_cancelar">Cancel</string>
+    <string name="bt_volver">Back</string>
+    <string name="label_anadir">Add a new category</string>
+    <string name="label_anadir_el">Add a new element</string>
+    <string name="label_azar">Random category</string>
+    <string name="label_confirmar">Do you confirm the selected action?</string>
+    <string name="label_editar">Edit</string>
+    <string name="label_seleccion">Your selection is</string>
+    <string name="title_anadir">Add</string>
+    <string name="title_eliminar">Remove</string>
+    <string name="title_seleccion">Your selection is</string>
+    <string name="label_vacio">There are no items in the list</string>
+    <string name="label_sin_seleccion">Make your selection ...</string>
+    <string name="label_separador"> / </string>
+    <string name="lista_vacia">Error : unable to make selection, empty list</string>
+    <string name="rand_selecion">"Randomly selected category "</string>
+    <string name="start_tip">for further options swipe items left</string>
+</resources>
